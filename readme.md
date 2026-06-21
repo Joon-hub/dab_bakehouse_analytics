@@ -1,1 +1,0 @@
-This is the demo tutorial for Databricks CI CD Project. 
