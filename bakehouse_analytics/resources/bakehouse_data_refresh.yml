@@ -25,8 +25,15 @@ resources:
         - task_key: notebook_task
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
+        - task_key: notebook_task
+            notebook_task:
+             notebook_path: ../src/nyc_taxi_analysis.ipynb
 
       environments:
         - environment_key: default
           spec:
             environment_version: "4"
+      git_source:
+        git_branch: dev
+        git_provider: gitHub
+        git_url: https://github.com/Joon-hub/dab_bakehouse_analytics.git
