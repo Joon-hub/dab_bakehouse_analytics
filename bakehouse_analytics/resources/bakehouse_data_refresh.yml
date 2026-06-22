@@ -24,10 +24,13 @@ resources:
       tasks:
         - task_key: notebook_task
           notebook_task:
-            notebook_path: ../src/customer_360.ipynb
-        - task_key: notebook_task
-            notebook_task:
-             notebook_path: ../src/nyc_taxi_analysis.ipynb
+            notebook_path: src/customer_360.ipynb
+        - task_key: notebook_task_2
+          notebook_task:
+            notebook_path: src/nyc_taxi_analysis.ipynb
+        - task_key: nyc_taxi_hourly_fare_analysis
+          notebook_task:
+            notebook_path: src/nyc_taxi_analysis_2.ipynb
 
       environments:
         - environment_key: default
